@@ -40,8 +40,8 @@ public class MainActivity extends AppCompatActivity {
                             @Override
                             public void
                             onPermissionGranted(PermissionGrantedResponse response) {
-                                Intent intent = new Intent(MainActivity.this, SignActivity.class);
-                                activity.startActivityForResult(intent, SIGNATURE_CONSTANT);
+//                                Intent intent = new Intent(MainActivity.this, .class);
+//                                activity.startActivityForResult(intent, SIGNATURE_CONSTANT);
                             }
                             @Override
                             public void
