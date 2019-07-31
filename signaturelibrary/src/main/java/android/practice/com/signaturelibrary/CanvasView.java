@@ -1,4 +1,4 @@
-package android.practice.com.signaturepad;
+package android.practice.com.signaturelibrary;
 
 import android.content.Context;
 import android.graphics.Bitmap;

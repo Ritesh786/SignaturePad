@@ -1,14 +1,10 @@
-package android.practice.com.signaturepad;
+package android.practice.com.signaturelibrary;
 
-import android.content.DialogInterface;
 import android.content.Intent;
 import android.os.Environment;
-import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
-import android.view.WindowManager;
-import android.widget.ArrayAdapter;
 import android.widget.TextView;
 
 import com.azeesoft.lib.colorpicker.ColorPickerDialog;
@@ -39,8 +35,6 @@ public class SignActivity extends AppCompatActivity {
         if (!file.exists()) {
             file.mkdir();
         }
-
-
         mcolorshow.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {

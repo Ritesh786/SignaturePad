@@ -16,7 +16,7 @@
         android:background="@drawable/signature_background"
         android:layout_height="wrap_content">
 
-        <android.practice.com.signaturepad.CanvasView
+        <android.practice.com.signaturelibrary.CanvasView
             android:id="@+id/signature_canvas"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
